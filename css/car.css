@@ -1,0 +1,32 @@
+.box{display: none;height: 150px;
+text-align: center;
+background: url(../img/gwc_kong.png) no-repeat center 111px;
+padding-top: 300px;
+line-height: 64px;
+font-size: 14px;
+color: #333;}
+.box p{font-size: 18px;}
+.box p b{cursor: pointer;font-weight: normal;color:#0077DD}
+.gw_car{width: 1140px;margin: 0 auto;/*border: 1px solid #000000;*/overflow: hidden;display: none;}
+.gw_car h2{height: 55px;line-height: 55px;color: #333;font-size: 12px;font-weight: normal;}
+.gw_car h2 i{display: block;width: 35px;height: 16px;line-height: 16px;font-size: 12px;float: left;background:url(../img/h2_bg-1.png) no-repeat;padding-left: 5px;color: #fff;margin: 19px 8px 0 0;font-style: normal;}
+table {text-align: center;border-top: 1px solid #e5e5e5;border-right: 1px solid #E5E5E5;font-size: 12px;}
+thead {background: #E5E5E5;color: #333}
+td {border-bottom: 1px solid #e5e5e5;padding: 5px;height: 43px;}	
+tbody tr{background:#fffceb;height: 83px;padding: 16px 0;border-bottom: 1px solid #e5e5e5;text-align: center;}
+tbody td>img{display:block;width:80px;height: 80px;}
+a,img{cursor: pointer;}
+.dj{font-weight: bold;}
+.zj1{font-weight: bold;color:#DC0F50}
+#cb1{margin-top: 40px;}
+input{text-align: center;outline: none;}
+#btn{border:none;background: #fff;}
+#btn:hover{color:#DC0F50}
+.zj{overflow:hidden;position: absolute;right:80px;/*border:1px solid #000000*/;display: none;}
+.zj i{font-style: normal;}
+.zj a{display: inline-block;width:100px;height:50px;background:#DC0F50;color:#FFFCEB;font-size: 20px;line-height: 50px;text-align: center;}
+#sp{color:#DC0F50}
+.xz{color: #999;
+font-size: 18px;
+line-height: 68px;padding-right: 20px;}
+.fk{font-size: 20px;color: #dc0f50;font-weight: bold;}

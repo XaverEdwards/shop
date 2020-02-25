@@ -1,0 +1,43 @@
+a{color:#333333}
+.list_content{overflow: hidden;margin: 0 auto;width: 1200px;position: relative;}
+.list{overflow: hidden;width: 1200px;margin: 15px auto;/*height: 1000px;*/}
+.list .fl{width: 957px;float: left;overflow: hidden;/*border: 1px solid #000000;*/}
+.fl h2{height: 32px;line-height: 32px;font-weight: normal;}
+.fl h2 a{font-size: 14px;color:#333333;}
+
+.fl .lx{margin-bottom: 19px;border: 1px solid #e5e5e5;overflow: hidden;}
+.hd dl{overflow: hidden;line-height: 58px;position: relative;height: auto;}
+.hd dt{width: 80px;background: #f1f1f1;font-size: 14px;font-weight: bold;color: #444;padding-left: 10px;float: left;height: 100%;}
+.hd .top{border-bottom: 1px dashed #e5e5e5;}
+.hd dd{width: 840px;overflow: hidden;position: relative;float: left;height: 58px;padding-left: 10px;} 
+.hd dd a{display: block;height: 22px;margin: 18px 35px 18px 0;overflow: hidden;float: left;line-height: 22px;font-size: 12px;color: #666;padding: 0 6px;cursor: pointer;}
+.hd dd span{display: block;padding-right: 16px;background: url(../dataImg/more.png)no-repeat right -28px;font-size: 12px;color: #333;cursor: pointer;height: 16px;line-height: 16px;position: absolute;right: 5px;bottom: 20px;}
+.hd dd .curr{background-position: right 4px;}
+.fl .filter{margin-bottom: 30px;height: 45px;border: 1px solid #e5e5e5;background: #f1f1f1;}
+.fl .filter_list  li {width: 88px;float: left;height: 46px;overflow: hidden;text-align: center; line-height: 45px;font-size: 12px;color: #333; cursor: pointer;}
+.fl .filter .filter_list  .act{color: #dc0f50;border-left: 1px solid #e5e5e5;background: #fff;border-right: 1px solid #e5e5e5;}
+.filter div{display: none;}
+.filter .actived{display: block;}
+.fl .filter .filter_list  .act  i{background:url(../dataImg/filter_i_bg.png) no-repeat 0 -11px;}
+.fl .filter .filter_list  li i{display: inline-block;width: 10px;height: 11px;background:url(../dataImg/filter_i_bg.png) no-repeat;margin-left: 4px;position: relative;top: 1px;}
+.filter .goods_list{padding:0 10px;clear:both;margin: 0 auto;/*border:1px solid #000000;*/width:100%}
+.filter .goods_list li{float: left;overflow: hidden;margin-bottom: 30px;width:214px;padding:0 10px;/*border:1px solid #000000*/}
+.filter .goods_list li a{display: block;overflow: hidden;position: relative;color: #0077dd;cursor: pointer;}
+.filter .goods_list li img{display: block;width: 214px;height: 214px;}
+.goods_list a b{padding: 5px 0;overflow: hidden;height: 40px;line-height: 20px;font-size: 14px;color: #333;display: block;}
+.goods_list a p{height: 24px;line-height: 24px;font-size: 20px;color: #e11f24;}
+.goods_list a p s{font-size:14px;float: right;color:#999999}
+.goods_list a font{display: block;font-size: 14px;color: #666;}
+.list .fr{width: 233px;overflow: hidden;float: right;}
+.list .fr .hd{height:32px;background:url(../img/hd_bg.jpg) repeat-x left bottom;margin-bottom: 5px;}
+.list .fr .hd h2{float: left;padding-right: 8px;color: #333;background: #fff;line-height: 24px;padding-top: 4px;padding-bottom: 5px;padding-left: 0;font-size:20px;font-weight: normal;}
+.list .fr .sell li{height: 80px;padding: 10px 0;padding-left: 0px;border-bottom: 1px solid #e5e5e5;margin-top: -1px;overflow: hidden;position: relative;padding-left: 97px;}
+.list .fr .sell li a{display: block;height: 80px;color: #0077dd;text-decoration: none;outline: none;cursor: pointer;}
+.list .fr .sell li a i{display: block; width: 25px;height: 25px;line-height: 18px;padding-left: 5px;font-size: 12px;color: #fff;position: absolute;left: 0;top: 10px;z-index: 10;font-style: normal;}
+.list .fr .sell li:nth-child(1) a i{background:url(../img/biao_bg.png) no-repeat}
+.list .fr .sell li:nth-child(2) a i{background:url(../img/biao_bg.png) no-repeat 0 -26px}
+.list .fr .sell li:nth-child(3) a i{background:url(../img/biao_bg.png) no-repeat 0 -52px}
+.list .fr .sell li a img{width: 80px;height: 80px;position: absolute;left: 0;top: 10px;}
+.list .fr .sell li a b{display: block;height: 32px;line-height: 16px;overflow: hidden;font-size: 14px;color: #333;margin-bottom: 22px;}
+.list .fr .sell li a em{font-size: 20px;color: #dc0f50;line-height: 26px;font-weight: normal;font-style: normal;position: absolute;left:90px;top:65px;}
+

@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;}
+#register{width:100%;border-top: 2px solid #DC0F50;position: relative;top:40px;}
+.maincon{width: 1040px;margin: 0 auto;margin-bottom: 0px;margin-bottom: 20px;overflow: hidden;background: #fff;padding: 40px;padding-top:60px}
+#register .fl{width: 578px;float: left;overflow: hidden;/*border:1px solid #000000;*/float: left;text-align: right;margin-right: 12px;}
+#register .fl ul li { overflow: hidden;height: 40px;line-height: 40px;margin-bottom: 20px;}
+#register .fl ul li span{background:url(../img/error_bg.png) no-repeat left;float: left;padding-left: 20px;font-size:12px;color:red}
+#register .fl ul li b{display: block;width: 90px;font-size: 14px;color: #666;float: left;text-align: right;margin-right: 12px;font-weight: normal;}
+#register .fl ul li b .i1{font-style:normal;color: #dc0f50;font-size: 14px;margin-right: 3px;font-family: "宋体";}
+#register .fl ul li input {
+width: 263px;padding: 9px 12px;height: 20px;border: 1px solid #d6d6d6;color: #666;float: left;margin-right: 15px;display: block;outline: none;}
+/*#register .fl ul li span{display: none;}*/
+#register .fl ul li .text{width:156px}
+#register .fl ul li #v_container{ display:inline-block;width: 70px;height: 40px;cursor: pointer;border:1px solid #E5E5E5;color:#FFFFFF;text-align: center;line-height: 40px;font-size: 18px;background: #DC0F50;}
+#register .fl ul li .yzm{width:156px}
+#register .fl ul li button{margin: 0px 15px 0 0;width:90px;height:38px;float: left;background: #DC0F50;color:#FFFFFF;outline: none;border:none;cursor: pointer;}
+#register .fl ul li .btn1{background:#D6D6D6;color:#666666}
+#register .fl p {overflow: hidden;margin-top: -15px;text-align: right;padding-right: 193px;height: 48px;line-height: 48px;color: #333;font-size: 14px;}
+#register .fl p a{color:#666666}
+#register .fl .on{margin: 0;text-align: right;padding-right: 193px;}
+#register .fl p input{position: relative;margin:0 5px 0 0;top:2px}
+#register .fl p .zc{width:305px;display: block;background: #666;color:#FFFFFF;height:40px;line-height: 40px;text-align: center;font-size:18px;margin-left:100px}
+#register .fl font {display: block;line-height: 20px;text-align: right;
+padding-right: 174px;}
+#register .fl font a{text-decoration: underline;color:#666666}
+#register .fr{float: right;}
+.error{color:red}
+.success{color:green}
+/*底部*/
+.bottom{width:1200px;margin: 80px auto 45px auto;overflow: hidden;}

@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;}
+#login{width:100%;border-top: 2px solid #DC0F50;position: relative;top:40px;}
+.maincon{width: 1060px;margin: 0 auto;padding: 60px 70px 30px 70px;
+overflow: hidden;/*border: 1px solid #DC0F50;*/}
+.maincon .fl{float: left;width: 448px;height: 336px;padding: 40px 0 0 0;overflow: hidden;margin-bottom: 75px;/*border:1px solid #333333*/}
+.maincon .fl a{cursor: pointer;}
+.maincon .fr{float: right;width: 448px;height: 376px; margin-bottom: 75px;/*border:1px solid #000000*/}
+.fr .head{height: 40px;line-height: 40px;overflow: hidden;/*border: 1px solid #D7D7D7;*/}
+.fr .head a{width: 50%;text-align: center;cursor: pointer; font-size: 18px;color: #666;margin-right: 60px;margin-left: 69px;}
+.fr .head .selet{color: #dc0f50;border-bottom: 2px solid #DC0F50;}
+/*用户登录*/
+.fr .user{margin-top: -6px;overflow: hidden;
+height: 290px;border: 1px solid #e5e5e5;padding: 45px 0 0 70px;position: absolute;}
+.fr .user ul li{overflow: hidden;height: 40px;margin-bottom: 19px;position: relative;}
+.fr .user #ts{display: block;font-size:12px;background: url(../img/error_bg.png) no-repeat left;padding-left:20px;margin-bottom:5px;color:red;}
+.fr .user ul li input{margin-right: 16px;float: left;
+height: 28px;line-height: 28px;padding: 5px 0 5px 60px;width: 243px;border: 1px solid #d6d6d6;font-size: 14px;color: #666;outline: none;}
+.fr .user ul li .i1{display: block;width: 18px;height: 18px;background: url(../img/icon01.png);position: absolute;left: 11px;top: 11px;}
+.fr .user ul li .i2{display: block;width: 14px;height: 18px;background: url(../img/icon02.png);position: absolute;left: 13px;top: 11px;}
+.fr .user ul li span,.fr .quick ul li span{float: right;padding-right:70px;}
+.user ul li span .re,.quick ul li span .re{font-size:14px;color:#333333}
+.user ul li label,.quick ul li label{font-size:14px;color:#333333}
+.user ul li label .autologin,.quick ul li label .autologin{width: 13px;height: 13px;border: none;float: left;margin-top: 5px;margin-right: 5px;padding: 0;width: 13px;height: 13px;border: none;float: left;margin-top: 5px;margin-right: 5px;padding: 0;}
+.user ul li .pass,.quick ul li .pass{font-size:14px;color:#333333;padding-left: 10px;}
+.user p,.quick p{height:40px;line-height: 40px;padding-right: 70px;}
+.user p a,.quick p a{display: block;background: #dc0f50;text-align: center;font-size: 18px;color: #fff;cursor: pointer;}
+.success{display: inline-block;height: 40px;background: url(../dataImg/correct_bg.png) no-repeat 3px center;display: none;}
+.success1{display: inline-block;height: 40px;background: url(../dataImg/correct_bg.png) no-repeat 3px center;display: none;}
+/*快捷登录*/
+.quick{padding-top:10px;height:343px;margin-top: -6px;overflow: hidden;padding: 0px 0 0 70px;border: 1px solid #e5e5e5;position: absolute;display: none;}
+.quick font{font-size:12px;display: block;height:40px;padding:0 32px;line-height: 38px;}
+.quick .tvuser{color:#DC0F50;background: url(../img/ling.png) no-repeat 10px center;}
+.quick strong{line-height: 21px;font-size: 12px;color: #999;height: 21px;display: block;font-weight: normal;}
+.quick ul li{overflow: hidden;height: 40px;margin-bottom: 19px;position: relative;}
+.quick ul li input{padding-left: 40px;
+width: 263px;margin-right: 16px;float: left;
+height: 28px;line-height: 28px;padding: 5px 0 5px 60px;border: 1px solid #d6d6d6;font-size: 14px;color: #666;outline: none;}
+.quick ul li .yzm{ width: 90px;height: 40px;background: #dc0f50;border: none;font-size: 14px;color: #fff;position: absolute;right: 17px; top: 0;line-height: 40px;cursor: pointer;outline: none;}
+.quick ul li .btn1{background:#D6D6D6;color:#666666}
+.fr .quick ul li .i1{display: block;width: 18px;height: 18px;background: url(../img/icon01.png);position: absolute;left: 11px;top: 11px;}
+.quick ul li #v_container{ text-indent:20px;display:inline-block;width: 20px;height: 40px;position: absolute;right: 16px; top: 0;cursor: pointer;border:1px solid #E5E5E5;color:#FFFFFF;text-align: center;line-height: 40px;font-size: 18px;background: #DC0F50;}
+.fr .quick ul li .i2{display: block;width: 14px;height: 18px;background: url(../img/icon02.png);position: absolute;left: 13px;top: 11px;}
+.fr .quick ul li .i3{display: block;width: 14px;height: 18px;background: url(../img/icon02.png);position: absolute;left: 13px;top: 11px;}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>惠家有-购物车</title>
+		<link rel="shortcut icon" type="image/x-icon" href="img/hjy.ico.bmp" />
+	</head>
+
+	<body>
+	</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/details.css" />
+	<link rel="stylesheet" type="text/css" href="css/car.css" />
+</head>
+
+<body>
+	<!--头部start-->
+	<div class="wrap-top">
+		<p class="top1">
+			<a class="a1" href="#">收藏</a>
+			<a href="index.html" target="_self" class="a2">首页</a>
+			<a href="login.html" class="a3" id="tuichu">请登录</a>
+			<a href="register.html" class="a4">免费注册</a>
+			<span>|</span>
+			<a href="#" class="a5">购物车</a>
+			<a href="#" class="a6">我的家有</a>
+
+			<a href="#" class="a8">我的收藏</a>
+			<span>|</span>
+			<a href="#" class="a9">手机版
+				<strong class="phone">
+							<i></i>
+							<img src="img/sj.png"/>
+							<em>惠家有APP</em>
+						</strong>
+			</a>
+			<a href="#" class="a10">微信版
+				<strong class="weixin">
+							<i></i>
+							<img src="img/wx1.jpg" class="wx_1"/>
+							<em>惠家有微信</em>
+							<img src="img/wx2.jpg" class="wx_2"/>
+							<em class="wx_3">家有实验室</em>
+						</strong>
+			</a>
+		</p>
+	</div>
+	<!--LOGO，搜索框，购物车-->
+	<div class="logo_menu">
+		<div class="logo">
+			<img src="img/logo.jpg" />
+		</div>
+		<div class="search">
+			<input type="text" class="text" id="ser" /><input type="button" value="搜索" class="btn_search" />
+			<div class="search_box" id="search_box">
+				<a href="#">月饼</a>
+				<a href="#">护肤</a>
+				<a href="#">眼霜</a>
+				<a href="#">双立人</a>
+				<a href="#">女装</a>
+				<a href="#">康宁</a>
+				<a href="#">营养食品</a>
+			</div>
+		</div>
+		<div class="car">
+			<a  class="go">我的购物车
+				<!--<strong class="gwcar">
+							<i></i>
+						购物车中没有商品赶紧去选购吧
+					</strong>-->
+			</a>
+			<p class="gow">0</p>
+		</div>
+	</div>
+	<!--头部导航-->
+	<div class="header_menu">
+		<div class="header">
+			<!--商品分类-->
+			<div class="head_menul">
+				<div class="head-bottom" id="fl1">
+					<b id="fl">全部商品分类</b>
+					<ul id="ul1">
+						<li>海外购</li>
+						<li>生活电器</li>
+						<li>品牌厨房</li>
+						<li>厨房电器</li>
+						<li>生活家居</li>
+						<li>布艺家纺</li>
+						<li>服装配饰</li>
+						<li>箱包配饰</li>
+						<li>美妆个护</li>
+						<li>食品饮料</li>
+						<li>数码</li>
+						<li>运动健康</li>
+					</ul>
+				</div>
+
+				<!--导航菜单-->
+				<div class="head_menuz">
+					<ul>
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="">TV直播</a>
+						</li>
+						<li>
+							<a href="">品牌惠</a>
+						</li>
+						<li>
+							<a href="">惠家有APP</a>
+						</li>
+						<li>
+							<a href="">家有尊享</a>
+						</li>
+						<li>
+							<a href="">家有优藏</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!--购物车详情-->
+	<div class="box">
+			<p>购物车空空，赶紧去<b id="sy">首页</b>购物吧</p>
+	</div>
+	<div class="gw_car">
+		<h2>
+			<i>包邮</i>
+			<span>所有商品全场包邮</span>
+		</h2>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<thead>
+				<tr>
+					<!--<td width="98">编号</td>
+					<td width="560">图像信息</td>
+					<td width="125">单价</td>
+					<td width="150">数量</td>
+					<td width="105">小计（元）</td>
+					<td width="102">操作</td>-->
+					<td>编号</td>
+					<td>图片</td>
+					<td>商品名称</td>
+					<td>单价</td>
+					<td>数量</td>
+					<td>小计（元）</td>
+					<td>操作</td>
+				</tr>
+			</thead>
+			<tbody id="tbody1">
+				
+			</tbody>
+
+		</table>
+		<label>
+				<input type="checkbox" name="" id="cb1" value="" />
+				全选
+				<input type="button" name="" id="btn" value="删除选中的产品" />
+				
+		</label>
+		
+	</div>
+	<div class="zj">
+			<span class="xz">已选择<b id="sp">1</b>件商品</span>
+			<span class="fk">应付款：10<i id="fk"></i></span>
+			<a href="#" class="js">去结算></a>
+		</div>
+	<!--底部-->
+	<div class="bottom">
+		<ul>
+			<li class="li1">
+				<b>100%正品保证</b>
+				<i>质量有保障</i>
+			</li>
+			<li class="li2">
+				<b>在线支付 全场包邮</b>
+				<i>送货上门</i>
+			</li>
+			<li class="li3">
+				<b>支持银联刷卡付款</b>
+				<i>付款更安全</i>
+			</li>
+			<li class="li4">
+				<b>货到付款 开箱验货</b>
+				<i>满意才收货</i>
+			</li>
+			<li class="li5">
+				<b>7*24小时人工服务</b>
+				<i>微笑无时无刻4008-3787-4765</i>
+			</li>
+		</ul>
+	</div>
+	<!--右侧浮动-->
+	<div class="rf">
+		<ul>
+			<li class="li1">
+				<a href="#">
+					<strong class="ma">
+							<i></i>
+							<img src="img/sj.png"/>
+							<em>惠家有APP</em>
+						</strong>
+				</a>
+			</li>
+			<li class="li2">
+				<a href="#">
+					<strong class="ma">
+							<i></i>
+							<img src="img/wx1.jpg"/>
+							<em>惠家有微信</em>
+						</strong>
+				</a>
+			</li>
+			<li class="li3">
+				<a href="#"></a>
+			</li>
+		</ul>
+	</div>
+
+	<!--底部foot-->
+	<div class="foot">
+		<div class="ft">
+			<div class="fleft">
+				<dl>
+					<dt>关于我们</dt>
+					<dd>公司介绍</dd>
+					<dd>招聘信息</dd>
+					<dd>联系我们</dd>
+					<dd>用户隐私条款</dd>
+				</dl>
+				<dl>
+					<dt>订购指南</dt>
+					<dd>交易条款</dd>
+					<dd>注册/购物流程</dd>
+					<dd>退/换货</dd>
+					<dd>积分说明</dd>
+					<dd>发票指南</dd>
+				</dl>
+				<dl>
+					<dt>配送服务</dt>
+					<dd>配送区域</dd>
+					<dd>配送时间</dd>
+					<dd>验货于签收</dd>
+				</dl>
+				<dl>
+					<dt>支付方式</dt>
+					<dd>网上支付</dd>
+					<dd>货到付款</dd>
+
+				</dl>
+				<dl>
+					<dt>合作专区</dt>
+					<dd>成为供应商</dd>
+					<dd>供应商系统</dd>
+					<dd>合作伙伴</dd>
+				</dl>
+			</div>
+			<div class="fright">
+				<ul class="ewm">
+					<li>
+						<img src="img/wx1.jpg" /> 惠家有微信
+					</li>
+					<li>
+						<img src="img/sj.png" /> 惠家有app
+					</li>
+				</ul>
+				<p>
+					<b>4008-678-210</b>
+					<i>客服7x24小时全年无休</i>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--版权-->
+	<div class="footer">
+		<div class="copy">
+			<p>友情链接：
+				<a href="#">南京手机报价</a>
+				<span>|</span>
+				<a href="#">百度百科</a>
+				<span>|</span>
+				<a href="#">奥莱购</a>
+				<span>|</span>
+				<a href="#">竞拍</a>
+			</p>
+			<p>
+				Copyright © 2008-2013 huijiayou.cn
+				<a href="#">家有购物集团有限公司北京分公司</a> 版权所有 黔ICP备13002365号 增值电信业务经营许可证：黔B2-20120036
+
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/details.js"></script>
+
+<script src="js/car.js" type="text/javascript" charset="utf-8"></script>

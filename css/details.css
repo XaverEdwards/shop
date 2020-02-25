@@ -1,0 +1,68 @@
+.head-bottom b{background: url(../img/nav_b_bg.jpg)no-repeat 160px center;position: absolute;width:220px;font-size: 14px;font-weight: normal;padding-left: 5px;}
+.details{overflow: hidden;width: 1200px;position: relative;margin: 0 auto;}
+.head-bottom {position: absolute;top:119px;color:#fff;background:#333333;height: 40px;line-height: 40px;border:none}
+.head-bottom ul{border: 1px solid #E5E5E5;display: none;position: absolute;top:42px;width: 218px;border-top: none;z-index: 1000;}
+.head-bottom ul li{color:#333}
+.head-bottom ul li:hover{background:#DC0F50;color:#fff}
+.head_menuz{margin-left: 340px;}
+.content{overflow: hidden;margin: 0 auto;width: 1200px;position: relative;}
+.details{margin: 0 auto;width: 1200px;}
+.details h2{height: 40px;line-height: 40px;padding: 0 15px;}
+.details h2 a{font-size: 12px;color:#333;font-weight: normal;cursor: pointer;}
+.details .show{padding: 29px;position: relative;border: 1px solid #d6d6d6;background: #fff;margin-bottom: 10px;overflow: hidden;}
+.show .goods_left{width: 545px;float: left;overflow: hidden;height: 512px;border: 1px solid #D6D6D6;}
+.goods_left .small{width: 64px;float: left;height: 464px;}
+.small a{display: block;height: 9px;background: url(../dataImg/more.png) no-repeat center top;}
+.small .up{background-position:center 2px;}
+.small .goodstyle{position: relative;height: 444px;overflow: hidden;/*border: 1px solid #D6D6D6;*/}
+#goods_s li{height: 62px;padding: 5px 0;cursor: pointer;}
+#goods_s li img{width:62px;height:62px;}
+#goods_s li img:hover{border: 1px solid #DC0F50;}
+.small .down{background-position:center -30px;}
+.goods_left .big{width: 460px;height:460px;float: right;position: relative;}
+.goods_left  #glass{width: 230px;height:230px;background: rgba(255,255,255,0.3);position: absolute;left:0;top:0;z-index: 10;cursor: move;display: none;}
+.goods_left .big img{display: block;width: 460px;height: 460px;/*overflow: hidden;*/position: absolute;}
+.goods_left .bigger{overflow: hidden;border: 1px solid #e5e5e5;width: 460px;height: 460px;position: absolute;z-index: 2;left: 616px;top: 28px;border:1px solid #E5E5E5;display: none;}
+.goods_left .bigger img{display: block;width: 920px;height: 920px;overflow: hidden;position: absolute;}
+.show .goods_right{float: right;width: 550px;position: relative;/*border: 1px solid #D6D6D6;*/}
+.goods_right h3{color: #333;font-size: 20px;height: 54px;line-height: 30px; padding: 7px 0;border-bottom: 1px solid #d6d6d6;}
+.goods_right .bd{padding: 5px 0;}
+.bd .price{line-height: 35px;position: relative;}
+.bd .price b{color: #dc0f50;font-size: 30px;margin-right: 8px;}
+.bd .price s{display: block;color: #666;line-height: 16px;font-size: 18px;}
+.bd .price a{position: absolute;color: #c06;font-size: 14px;line-height: 14px;top: 25px;right: 27px;}
+.bd .price a i{display: inline-block;width:15px;height: 15px;background: #DC0F50;color:#FFFFFF;text-align: center;line-height: 15px;border-radius: 10px;font-size: 14px;margin-left: 10px;}
+.bd .num{height: 40px;line-height: 40px;margin-top: 10px;font-size: 12px;color: #666;}
+.bd .num b,.bd .shou b{font-size: 12px;color: #666;display: block;width: 50px;float: left;font-weight: normal;}
+.bd .num span,.bd .shou span{padding-left: 15px;}
+.bd .shou{height: 40px;line-height: 40px;margin-top: 10px;font-size: 12px;color: #666;}
+.bd .number{line-height: 22px;padding: 5px 0;overflow: hidden;}
+.bd .number b{display: block;width: 62px;line-height: 22px;font-size: 12px;color: #666;float: left;font-weight: normal;}
+.bd .number label{margin-right: 12px;display: block;width: 86px;height: 20px;float: left;border: 1px solid #d6d5d3;}
+.bd .number label .jian{background-position: 0px 0px;display: block;width: 15px;height: 20px;overflow: hidden;float: left;background: url(../dataImg/jia_jian.png) no-repeat;text-indent: -999em;}
+.bd .number label .jia{background-position: 0px -20px;display: block;width: 15px;height: 20px;overflow: hidden;float: left;background: url(../dataImg/jia_jian.png) no-repeat;text-indent: -999em;}
+.bd .number label .jia{background-position: 0 -20px;}
+.bd .number label input{border: none;width: 44px;padding: 0 5px;border-left: 1px solid #d6d5d3;float: left;text-align: center;line-height: 20px;height: 20px;color: #666;font-size: 12px;border-right: 1px solid #d6d5d3;outline: none;}
+.bd .number span{float: left;color: #666;font-size: 12px;line-height: 22px;}
+.bd .number span i{color: #dc0f50;padding: 0 5px;font-style:normal}
+.bd .tb{line-height: 19px;overflow: hidden;padding: 7px 0 0 0;}
+.bd .tb span{display: block;float: left;padding-left: 25px;font-size: 14px;color: #333;margin: 0px 0 8px 0;margin-right: 0px;margin-right: 26px;}
+.bd .tb span:nth-child(1){background:url(../dataImg/62ccb1997c7f45669ecb9969497788a9.png)no-repeat;background-size: 20px auto;}
+.bd .tb span:nth-child(2){background:url(../dataImg/96e6baed09b24574acf8bab2f90452a7.png)no-repeat;background-size: 20px auto;}
+.bd .tb span:nth-child(3){background:url(../dataImg/17e2dac00f4644238faff7c36d5fccef.png)no-repeat;background-size: 20px auto;}
+.btn a{display: block;width: 160px;height: 38px;line-height: 38px;overflow: hidden;text-align: center;color: #fff;font-size: 16px;float: left;margin-right: 22px;background: #999999;}
+#car{background:#fea829}
+#buy{background:#DC0F50}
+.gge{background: #fff;margin-bottom: 68px;}
+.gge .gc{width:320px;height:50px;border: 1px solid #E5E5E5;border-bottom: none;}
+.gge .gc li{width: 160px;height: 50px;line-height: 50px;float: left;background: #f5f5f5;text-align: center;font-size: 18px;color: #333;cursor: pointer; }
+.gge .gc .active{background: #fff;border-bottom: 1px solid #fff;color: #dc0f50;border-top: 2px solid #dc0f50;position: relative;top: -1px;border-left: 1px solid #e5e5e5;border-right: 1px solid #e5e5e5;width: 159px;margin-left: -1px;}
+.gge .cont{padding-top: 2px;border: 1px solid #e5e5e5;}
+.cont .img{overflow: hidden;padding: 25px 50px;}
+.cont .img .tu{display: block;padding: 35px;overflow: hidden;}
+.cont .img .tu img{width:100%}
+.cont .img img{width: 100%;}
+.cont .table{padding: 40px;min-height: 440px;overflow: hidden;display: none;}
+.tables li{font-size: 12px;color: #666;line-height: 40px;overflow: hidden;}
+.tables li b{width: 110px;display: block;float: left;}
+.tables li span{display: block;width: 1000px;float: left;overflow: hidden;}
